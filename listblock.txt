@@ -1,5 +1,5 @@
 ! Title :    Persian - Adblock
-! Version:   180725
+! Version:   221025
 ! Homepage:  https://github.com/iFarnoud
 ! Homepage:  https://github.com/iFarnoud
 !--------------------------------------------------------------------------
@@ -4067,3 +4067,40 @@ benawa.com##.benawa_contentarea .benawa_treeads:upward(.benawa_contentarea)
 benawa.com##.pix_of_day
 benawa.com##div[style="margin-top:4px;overflow:hidden;"]
 benawa.com##div[style="margin-top:5px;margin-bottom:3px; overflow:hidden;"]
+
+zoomit.ir##[class^="DisplaySkeleton__"]
+zoomit.ir##.bannercontainer
+zoomit.ir##.showBanner
+zoomit.ir##.text-adv-row
+zoomit.ir##.Text5Ad
+zoomit.ir##A[href*="//app.adjust.com"]
+zoomit.ir##text-adv-box
+zoomtech.ir###rss-2
+zoomtech.ir###text-10
+zoomtech.ir###text-19
+zoomtech.ir###text-3
+zoomg.ir##.banner
+||zoomit.ir/*.gif
+||zoomit.ir/*/declarationPics/*.jpg
+||zoomtech.ir/wp-content/uploads/*.gif
+zoomit.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="390"][maxheight="100"])
+
+zoomit.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="390"][maxheight="48"])
+
+zoomit.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="390"][maxheight="450"])
+zoomit.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="390"][maxheight="183"])
+
+zoomit.ir###__next > div.__className_876ba2.__className_d07b00:last-child > div.sc-35903b08-0.ffTFYK:first-child > div.sc-b88781d7-0.cdAJfG:first-child
+zoomit.ir###__next > div.__className_876ba2.__className_d07b00:last-child > div.sc-35903b08-0.ffTFYK:first-child > main.bg-background2.border-grey6.relative.pb-12:nth-child(4) > article > div.sc-35903b08-1.jeGPTA:last-child > aside.sc-35903b08-2.berGYD:first-child > div > div > div.sc-a11b1542-0.hwiVAG > div.sc-b88781d7-0.gGFPDq:first-child
+zoomit.ir###__next > div.__className_876ba2.__className_d07b00:last-child > div.sc-35903b08-0.ffTFYK:first-child > main.bg-background2.border-grey6.relative.pb-12:nth-child(4) > article > div.sc-35903b08-1.jeGPTA:last-child > div:nth-child(5)
+zoomit.ir##.sc-b88781d7-0, .gGFPDq
+zoomit.ir##.sc-bca05767-7, .cxLrFg
+/ads/api^$from=zoomit.ir|zoomg.ir|pedal.ir|filmzi.tv|filmzi.com
+zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="1920"][maxheight="192"])
+zoomit.ir##div.mt-4 > a[href^="https://www.zoomit.ir/pr/"]
+zoomit.ir##div.mt-4 > a[href^="https://www.zoomit.ir/pr/"] + .bg-borderPrimary
+zoomit.ir##div[class^="sc-"][flexdirection="column"][flexwrap="nowrap"] > .flex > .scroll-m-16:has(> a[href^="https://www.zoomit.ir/pr/"])
+zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="648"][maxheight="167"])
+zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="300"][maxheight="250"])
+pedal.ir,filmzi.com##div[class^="sc-"][rowcount][columncount="1"]:has(> div[class^="sc-"] > a[rel="sponsored"])
+pedal.ir,filmzi.com##div[class^="sc-"][spacing="[object Object]"]:has( > span:has-text(تبلیغات)
